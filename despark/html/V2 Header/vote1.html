@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>DeSpark</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    *{box-sizing: border-box;}
+
+    body {  
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        .header {
+            overflow: hidden;
+            background-color: rgb(1, 99, 1);
+            padding: 15px 10px;
+        }
+        .header a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px; 
+            line-height: 20px;
+            border-radius: 10px;
+        
+        }
+        .header a.logo {
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .header a:hover {
+            background-color: rgb(2, 71, 2, 0.901);
+            color: black;
+        }
+        .header a.active { 
+            background-color: rgba(2, 71, 2, 0.901);
+            color: white;
+        }
+        .header-right {
+            float: right;
+        }
+        .centered {
+            text-align: center;
+        }
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .header-right {
+                float: none;
+            }
+        }
+
+        /* New CSS rules for footer */
+        .grey-rectangle {
+            background-color: grey;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            font-size: 18px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .centered img {
+            display: block;
+            margin: 0 auto; /* Center horizontally */
+            max-width: 30%; /* Ensure the image does not exceed its container's width */
+        }
+        form {
+        max-width: 500px;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+            
+        }
+        .submit-button {
+            text-decoration: none;
+            background-color: blue;
+            color: white;
+            padding: 0.5rem .5rem;
+            border: none;
+            cursor: pointer;
+            margin-right: 50px;
+        }
+        .button-container {
+            display: flex;
+        }
+        .submit-button:last-child {
+            margin-right: 0; /* Remove margin for the last button to prevent extra space */
+        }
+    </style>
+</head>
+<body>
+
+<main> 
+    <div class="header">
+        <a href="home1(new header).html" class="logo">DeSpark</a>
+        <div class="header-right">
+            <a href="home1(new header).html">Home</a>
+            <a class="active" href="vote1.html">Vote</a></li>
+            <a href="signin1.html">Sign in</a></li>
+        </div>
+    </div>
+    <table border = "1">
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 80%;
+            max-width: auto;
+            font-size: 20px;
+            line-height: 1;
+            text-align: left;
+        }
+        th, td {
+            padding: auto;
+            border: 1px solid #ddd;
+        }
+        th {
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            max-width: 30%;
+            height: 10;
+            margin: 10;
+        }
+        
+        </style>
+</head>
+<body>
+    
+    <h1 class="centered">Gaming Chair</h1>
+    <div class="centered">
+        <img src="chair.jpg">
+    </div>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <th>Gaming Chair</th>
+        </tr>
+        
+        <tr> 
+        </tr>
+        
+        <tr>
+            <td>Price:</td><td> ~$220 - $250</td>
+        </tr>
+        <tr>
+            <td>Description:</td><td> Amazing chair that is both confortable and easy to set up. Sitting for hours will never feel better than when you sit in this chair.</td>
+        </tr>
+        <tr>
+            <div class="centered">
+            <a href="rateno1.html" button class="submit-button">Dislike</button>
+                <button class="submit-button">Like</button>
+            </div>
+            
+</form>
+  <script>
+    document.getElementById("commentsForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+    });
+</body>
+
+</html>
+
+
+
